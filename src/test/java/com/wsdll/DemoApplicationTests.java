@@ -1,4 +1,4 @@
-package com.wsdll.demo;
+package com.wsdll;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
