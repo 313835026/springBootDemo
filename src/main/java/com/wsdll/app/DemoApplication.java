@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 // @SpringBootApplication相当于上面两个注解了,但只能默认扫描同目录下的包
 @ComponentScan("com.wsdll.controller")
+@ComponentScan("com.wsdll.errorutil")
 @SpringBootApplication
 public class DemoApplication {
 
