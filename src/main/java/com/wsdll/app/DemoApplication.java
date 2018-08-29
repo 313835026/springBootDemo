@@ -3,11 +3,13 @@ package com.wsdll.app;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 //@ComponentScan("com.wsdll.demo.controller") 扫描包
 //@EnableAutoConfiguration() 注入spring容器
-
 // @SpringBootApplication相当于上面两个注解了,但只能默认扫描同目录下的包
+
+@EnableScheduling // 支持定时任务
 @ComponentScan("com.wsdll.controller")
 @ComponentScan("com.wsdll.errorutil")
 @SpringBootApplication
