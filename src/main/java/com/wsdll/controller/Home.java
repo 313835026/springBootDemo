@@ -1,5 +1,6 @@
 package com.wsdll.controller;
 
+import org.junit.jupiter.api.Test;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,5 +16,10 @@ public class Home {
         System.out.println(request.getMethod());
         System.out.println("------------|" + request.getContextPath() + "|------------");
         return "hello world!!!";
+    }
+
+    @Test
+    public void runTest() {
+        System.out.println("@Test");
     }
 }
