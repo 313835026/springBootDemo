@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 // @SpringBootApplication相当于上面两个注解了,但只能默认扫描同目录下的包
 
 @EnableScheduling // 支持定时任务
-@ComponentScan("com.wsdll.controller")
+@ComponentScan(basePackages = {"com.wsdll.controller","com.wsdll.service"})
 @ComponentScan("com.wsdll.errorutil")
 @SpringBootApplication
 public class DemoApplication {

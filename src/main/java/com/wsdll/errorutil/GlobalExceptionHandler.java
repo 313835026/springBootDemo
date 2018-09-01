@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // 全局捕获异常
-@ControllerAdvice
+//@ControllerAdvice
 public class GlobalExceptionHandler {
 
     // 运行时异常

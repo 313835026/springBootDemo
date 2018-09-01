@@ -10,7 +10,7 @@ import java.util.Date;
 @Component
 public class ScheduledController {
 
-    @Scheduled(cron = "* * * * * ?")
+//    @Scheduled(cron = "* * * * * ?")
     public void scheduledTest() {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String nowDate = sdf.format(new Date());
