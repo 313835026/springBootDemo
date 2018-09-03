@@ -25,7 +25,7 @@ public class UserService {
 
     // jpa查询一个User对象
     public User jpaFindUser(Integer id) {
-        return userDao.findById(id);
+        return userDao.findById(id).get();
     }
 
 }
