@@ -12,10 +12,10 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = "/createUser")
-    public int createUser(String username, Integer age) {
-        System.out.println(username);
-        int result = userService.createUser(username, age);
-        return result;
-    }
+//    @RequestMapping(value = "/createUser")
+//    public int createUser(String username, Integer age) {
+//        System.out.println(username);
+//        int result = userService.createUser(username, age);
+//        return result;
+//    }
 }
