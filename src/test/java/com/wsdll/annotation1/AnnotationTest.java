@@ -17,6 +17,7 @@ public class AnnotationTest {
         for(Method m : methods){
             String name = m.getName();
             System.out.println(name);
+
         }
 
     }

@@ -16,4 +16,5 @@ public class ThisIsAClazz {
     public void setName(String name) {
         this.name = name;
     }
+
 }
