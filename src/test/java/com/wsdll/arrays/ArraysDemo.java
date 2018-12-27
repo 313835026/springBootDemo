@@ -22,6 +22,11 @@ public class ArraysDemo {
         // public <T> T[] toArray(T[] a)
         Integer[] ii = list.toArray(new Integer[list.size()]);
 
+        // public <T> T[] toArray(T[] a)
+        // 这个和上一个是一样的，最终数组会将元素放倒iii里
+        Integer[] iii = new Integer[list.size()];
+        list.toArray(iii);
+
 
     }
 }
